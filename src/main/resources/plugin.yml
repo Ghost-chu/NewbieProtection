@@ -1,0 +1,5 @@
+name: NewbieProtection
+version: ${project.version}
+main: com.mcsunnyside.newbieprotection.NewbieProtection
+api-version: 1.13
+depend: [TitleManager]
