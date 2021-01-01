@@ -101,7 +101,7 @@ public final class NewbieProtection extends JavaPlugin implements Listener {
             if(damage == 0){ //Nothing we can do
                 return;
             }
-            e.setDamage(damage/2); //reduce damage for newbie
+            e.setDamage(damage/2.0); //reduce damage for newbie
         }
     }
 }
